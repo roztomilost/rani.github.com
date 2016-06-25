@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,dl,dd,ol,ul,fieldset,legend,figure,menu{margin:0;padding:0;border:0}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+table,th,td{border-spacing:0;border-collapse:collapse}
+ol,ul,li{list-style:none}
+h1,h2,h3,h4,h5,h6{font-size:1em;font-weight:normal}
+input,textarea,select,button{margin:0;padding:0;border-radius:0;color:#333;font:normal 12px/1.2 "Noto Sans",sans-serif;outline:0;vertical-align:middle}
+a,a:link,a:visited,a:hover,a:active{text-decoration:none}
+a,button,input[type="submit"],input[type="button"],input[type="reset"]{border:0;background:transparent;cursor:pointer}
+img{border:0;vertical-align:top}
+body{font:normal 12px/1.2 "Noto Sans",sans-serif}
+
+.clearfix::after{display:block;content:"";clear:both}
+
+header{
+    width: 1000px;
+    height: 100px;
+    margin: 20px;
+}
+
+
+header img{
+    float: left;
+    height: 100px;
+}
+
+
+header .menu{
+    float: right;
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.visual{
+    width:1000px;
+    height: 400px;
+    text-align: center;
+    background: yellow;
+}
+
+.visual p{
+    padding: 80px 0 20px;
+    font-size: 18px;
+}
+
+.visual h1{
+    font-size: 28px;
+}
+
+
+
+.container{
+    width:1000px;
+}
+
+.container .box01{
+    float: left;
+    width:250px;
+    height:250px;
+    margin: 10px 0;
+    text-align: center;
+    background: green;
+}
+
+.container .box01:hover{
+    background: black;
+    color: white;
+}
+
+.container .box01 .p{
+    padding:20px 0 40px;
+    font-size:14px;
+}
+
+.container .box01 .h1{
+    font-size: 20px;
+}
+
+.container .box02{
+    float:left;
+    width:200px;
+    height:200px;
+}
